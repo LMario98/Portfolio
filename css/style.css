@@ -1,0 +1,138 @@
+/* Custom CSS for Portfolio Website */
+
+:root {
+  --primary: #0b5345; 
+  --secondary: #117864; 
+  --accent: #58d68d; 
+  --bg: #f8f9fa; 
+  --text: #222; 
+  --muted: #6c757d; /
+}
+
+body {
+  font-family: 'Poppins', system-ui, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: var(--primary) !important;
+}
+
+.nav-link {
+  color: var(--text) !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--primary) !important;
+}
+
+.hero {
+  padding: 6rem 0;
+  background: linear-gradient(180deg, #e8f6f3 0%, #ffffff 100%);
+}
+
+.hero h1 span {
+  color: var(--primary);
+}
+
+.hero .lead {
+  font-size: 1.125rem;
+  color: var(--muted);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+}
+
+.btn-outline-secondary {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-outline-secondary:hover {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+section h2 {
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  border: 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+}
+
+.skill-badge {
+  margin: 0.15rem;
+  background-color: var(--primary) !important;
+}
+
+footer {
+  background: var(--primary);
+  color: #e6eef8;
+}
+
+footer p {
+  margin: 0;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+#contact {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+#contact .form-control {
+  border-radius: 8px;
+  border: 1px solid var(--accent);
+}
+
+#contact .btn-primary {
+  background-color: var(--accent);
+  border-color: var(--accent);
+  color: #0b2f27;
+}
+
+#contact .btn-primary:hover {
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 3.5rem 0;
+  }
+  h1.display-5 {
+    font-size: 1.9rem;
+  }
+}

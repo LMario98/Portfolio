@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     role: 'Full Stack Software Developer',
     email: 'lo-coco-mario-@hotmail.it',
     location: 'Cork, Ireland',
-    description: 'I am a passionate software developer with experience in front-end and back-end technologies. I love creating innovative and functional solutions that improve the user experience.'
+    description: 'I am a expertise software developer with experience in front-end and back-end technologies. I love creating innovative and functional solutions that improve the user experience.'
   };
 
   document.getElementById('hero-name').textContent = persona.name;
